@@ -39,10 +39,13 @@ console.log(!x);     // false
 console.log(!y);     // true
 
 //operador ternario
+//1. el primer valor deve ser un valor boleano
+//2. el segundo valor se mostrara si el primer valor es verdadero
+//3. el tercero valor se mostrara si el valor es falso
 //Es una forma corta de escribir una expresión condicional.
 //Sintaxis: 
 //condición ? expresión_si_verdadero : expresión_si_falso;
 //ejemplo:
-let edad = 18;
+let edad= 18;
 let puedeEntrar = (edad >= 18) ? "Puede entrar" : "No puede entrar";
 console.log(puedeEntrar);
