@@ -1,0 +1,11 @@
+// crear un funcion que reciba por parametro una lista y un alemento a encontrar retornar 
+// si el elemento a encontrar retornar si el elemento fue encontrado o no 
+function buscarElemento(lista, elemento) {
+  for (let i = 0; i < lista.length; i++) {
+    if (lista[i] === elemento) {
+      return true; 
+    }
+  }
+  return false; 
+}
+
