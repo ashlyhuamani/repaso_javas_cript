@@ -26,3 +26,4 @@ eliminar("JKL456");
 console.log("Filtrar 2020:", filtrarAnio(2020));
 console.log("Buscar MNO321:", buscarPlaca("MNO321"));
 console.log("Final:", vehiculos);
+
